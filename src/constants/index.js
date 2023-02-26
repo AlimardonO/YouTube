@@ -1,0 +1,1 @@
+export const logo = 'https://download.logo.wine/logo/YouTube/YouTube-White-Full-Color-Logo.wine.png';

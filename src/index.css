@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+    height: max-content;
+    text-decoration: none;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    width: 350px;
+}
+
+input[type="text"] {
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.category-btn {
+    background: #272727;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    transition: background 1.4s;
+}
+
+.category-btn:hover {
+    transition: 0.5s;
+    background: #3f3f3f;
+}
+
+.react-player {
+    height: 77vh !important;
+    width: 100%;
+}
+
+.leftNavDiv {
+    width: 90%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.leftNavDiv:hover{
+    background: #272727;
+}
+.leftNavIcons {
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .search-bar {
+        width: 200px;
+    }
+
+    .react-player {
+        height: 45vh !important;
+    }
+}
